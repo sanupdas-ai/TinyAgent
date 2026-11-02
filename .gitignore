@@ -1,0 +1,17 @@
+# Python bytecode and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Local model weights
+*.gguf
+*.safetensors
+
+# macOS metadata
+.DS_Store
